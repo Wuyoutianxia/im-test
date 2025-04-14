@@ -5,6 +5,10 @@
 public class ImTest {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Stdout("Hello World!");
+    }
+
+    public static void Stdout(String s) {
+        System.out.println(s);
     }
 }
